@@ -1,5 +1,8 @@
 {
   "private": true,
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
