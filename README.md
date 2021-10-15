@@ -33,8 +33,8 @@ This is just showcase so in time I will prepare more test cases.
 
 To run test execution you can:
 
-1 Run command ```npx cypress run``` - this will execute headless mode and give you a fast report 
-2 Run command ```npx cypress open``` - this will open Cypress GUI and give you a visual preview of test execution with super easy debugger mode just inspect the app page to check what's wrong  
+1. Run command ```npx cypress run``` - this will execute headless mode and give you a fast report 
+2. Run command ```npx cypress open``` - this will open Cypress GUI and give you a visual preview of test execution with super easy debugger mode just inspect the app page to check what's wrong  
 
 You can check sample videos from run in cypress/videos/ folder
 # Notes
