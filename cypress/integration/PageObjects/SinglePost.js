@@ -7,10 +7,17 @@ class SinglePost {
 
         cy.get(blogData.tightPostLink)
             .should('be.visible')
-            .click({ force: true })
+            .click()
     }
+
+clickSnugPostLink() {
+
+    cy.get(blogData.snugPostLink)
+        .first()
+        .should('be.visible')
+        .click()
 }
-// clickTightPostLink
+}
 const singlePost = new SinglePost();
 
 export default singlePost
